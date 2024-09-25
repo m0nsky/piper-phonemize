@@ -39,7 +39,7 @@ set_target_properties(piper_phonemize PROPERTIES
 # Look for onnxruntime files in <root>/lib
 if(NOT DEFINED ONNXRUNTIME_DIR)
     if(NOT DEFINED ONNXRUNTIME_VERSION)
-        set(ONNXRUNTIME_VERSION "1.14.1")
+        set(ONNXRUNTIME_VERSION "1.18.1")
     endif()
 
     if(WIN32)
